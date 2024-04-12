@@ -1,7 +1,7 @@
 \name{comb_indices_fa}
 \alias{comb_indices_fa}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Construction of selection indices based on number of character grouping
+\title{Construction of selection indices based on a number of character groupings
 %%  ~~function to do ... ~~
 }
 \description{construct selection indices based on a set of input parameters related to breeding values, variance-covariance matrices, weights, genetic advances, desired gains, heritability, and selection intensity.
