@@ -159,7 +159,7 @@ comb_indices_fa <- function(BV, ncomb, matp, matg, wmat, wcol = 1, GA, wg, d, h2
     addWorksheet(wb, "Index_and_Ranking")
     writeData(wb, sheet = "Index_and_Ranking", x = out4, rowNames = TRUE)
     # Save the Excel file
-    saveWorkbook(wb, file = "Selection_Indices_varselect.xlsx", overwrite = TRUE)
+    saveWorkbook(wb, file = "Selection_Indices.xlsx", overwrite = TRUE)
 
     cat("Excel file created and saved successfully\n")
 
