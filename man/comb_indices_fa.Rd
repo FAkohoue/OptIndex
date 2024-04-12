@@ -122,7 +122,7 @@ comb_indices_fa <- function(BV, ncomb, matp, matg, wmat, wcol = 1, GA, wg, d, h2
     indices[[i]] <- selection.index(ID,
                                     matp = matp[comb[i,], comb[i,]],
                                     matg = matg[comb[i,], comb[i,]],
-                                    wmat = wmat[comb[i,], wcol], GA = GAY)
+                                    wmat = wmat[comb[i,], wcol], GA = GA)
   }
 
     df <- do.call(rbind.data.frame, indices)
