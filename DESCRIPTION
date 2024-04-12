@@ -1,0 +1,11 @@
+Package: OptIndex
+Type: Package
+Title: Calculate selection indices using three different mehtods for efficient indirect selection in breeding programs
+Version: 0.1.0
+Author: Félicien Akohoue
+Maintainer: Félicien Akohoue <akohoue.f@gmail.com>
+Description: This package is a collection of functions to calculate the genetic advance for a specific trait or a combination of traits, and construct selection indices for indirect selection in breeding programs.
+Depends: dplyr, MASS, Matrix, writexl, readxl, openxlsx, corrplot
+License: Apache-2.0
+Encoding: UTF-8
+LazyData: true
