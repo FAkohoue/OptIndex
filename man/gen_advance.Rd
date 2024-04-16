@@ -8,7 +8,7 @@
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-(GA <- gen.advance(phen_mat, gen_mat, weight_mat, k))
+gen.advance(phen_mat, gen_mat, weight_mat, k)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
