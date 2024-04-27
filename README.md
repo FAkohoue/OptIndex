@@ -3,7 +3,7 @@ This package is a collection of functions to calculate the genetic advance for a
 # Installation in R
 # Install devtools
 devtools::install_github("hadley/devtools")
-# Install EasyExplore
+# Install OptIndex
 devtools::install_github("FAkohoue/OptIndex")
 
 # License
